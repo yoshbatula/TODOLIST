@@ -42,6 +42,13 @@
 
 .todo-app input {
     height: 30px;
-    width: 450px;
+    width: 370px;
     border-radius: 20px;
+}
+
+.todo-app button {
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
