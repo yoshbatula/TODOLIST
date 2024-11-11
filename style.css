@@ -11,6 +11,7 @@
     background: rgb(55,54,77);
     background: linear-gradient(90deg, rgba(55,54,77,1) 0%, rgba(11,11,94,1) 35%, rgba(28,74,83,1) 100%);
     padding: 10px;
+    justify-content: space-between;
 }
 
 .todo-app {
@@ -20,11 +21,27 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 20px;
+    height: 700px;
+    align-items: center;
+    text-align: center;
 }
 
 .todo-app h2 {
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.todo-app img {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.todo-app input {
+    height: 30px;
+    width: 450px;
+    border-radius: 20px;
 }
