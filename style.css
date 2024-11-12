@@ -21,7 +21,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 20px;
-    height: 700px;
+    height: 300px;
     align-items: center;
     text-align: center;
 }
@@ -44,6 +44,9 @@
     height: 30px;
     width: 370px;
     border-radius: 20px;
+    flex-grow: 1;
+    padding: 10px;
+
 }
 
 .todo-app button {
@@ -51,4 +54,6 @@
     width: 90px;
     border-radius: 20px;
     margin-right: 10px;
+    background-color: green;
+    color: white;
 }
